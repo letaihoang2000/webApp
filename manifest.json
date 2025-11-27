@@ -4,7 +4,7 @@
   "lang": "ja",
   "display": "standalone",
   "start_url": "https://letaihoang2000.github.io/webApp/",
-  "scope": "https://user-name.github.io/repo-name/",
+  "scope": "https://letaihoang2000.github.io/webApp/",
   "theme_color": "#AA6C39",
   "background_color": "#FFFFFF",
   "orientation": "portrait",
