@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>tensai</title>
+
+    <!-- PWA: viewport -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+
+    <!-- PWA: theme color -->
+    <meta name="theme-color" content="#AA6C39" />
+
+    <!-- Android / general: manifest -->
+    <link rel="manifest" href="./manifest.json" />
+
+    <!-- iOS PWA関連 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="tensai" />
+    <link rel="apple-touch-icon" href="192image.png" />
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      body {
+        background-color: #000;
+      }
+
+      #app {
+        width: 100%;
+        height: 100%;
+      }
+
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <iframe
+        src="https://script.google.com/a/macros/iica.jp/s/AKfycbysvWeiUcjkSFWunjsx1xbRAMz1U4UeARPc-c3o26IX94pxZpFrxKDCyMSkUlGYAv0/exec"
+        title="tensai app"
+      ></iframe>
+    </div>
+  </body>
+</html>

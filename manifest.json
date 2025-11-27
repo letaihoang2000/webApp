@@ -1,0 +1,23 @@
+{
+  "name": "tensai",
+  "short_name": "TS",
+  "lang": "ja",
+  "display": "standalone",
+  "start_url": "https://user-name.github.io/repo-name/",
+  "scope": "https://user-name.github.io/repo-name/",
+  "theme_color": "#AA6C39",
+  "background_color": "#FFFFFF",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "192image.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "512image.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
